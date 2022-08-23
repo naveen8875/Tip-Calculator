@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt:wght@800&display=swap');
+*
+{
+    padding: 0;margin: 0;
+}
+body
+{
+    /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+     */
+     background-color: black;
+}
+.main
+{
+    color: white;
+    font-family: 'Kanit', sans-serif; 
+}
+.results
+{
+    display: flex;
+}
+.results button
+{
+    background-color: rgb(55, 20, 55);
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+#add
+{
+    position: absolute;
+    right: 835px;
+    top: 263px;
+}
+#sub
+{
+    position: absolute;
+    right: 613px;
+    top: 263px;
+}
+.results button h1
+{
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 2px;
+}
+.results p
+{
+    position: absolute;
+    right: 741px;
+    top: 260px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+.results h2
+{
+    position: absolute;
+    right: 632px;
+    top: 221px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+input
+{
+    height: 40px;
+    width: 250px;
+
+}
+#bill
+{
+    display: flex;
+    flex-direction: column;
+}
+#tip
+{
+    flex-direction: column;
+    display: flex;
+    
+}
+.textfields
+{
+    position: absolute;
+    right: 636px;
+    top: 69px;
+}
+#title
+{
+    font-weight: bold;
+    text-align: center;
+}
+.final
+{
+    position: absolute;
+    right: 433px;
+    top: 368px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.final h3
+{
+    position: absolute;
+    right: 295px;
+    top: 91px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+
+#finamt
+{
+    position: absolute;
+    right: 511px;
+    top: 368px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(55, 20, 55);
+    border-radius: 30px;
+    width: 500px;
+    text-align: center;
+}
+.results
+{
+    color: white;
+}
+#bill label
+{
+    position:relative;
+    right: -64px;
+    top: 2px;
+}
+#tip label
+{
+    position: relative;
+    right: -73px;
+    top: 2px;
+}
+#calculate
+{
+    position: absolute;
+    right: 243px;
+    top: 196px;
+    background-color: rgb(55, 20, 55);
+    height: 70px;
+    width: 170px;
+    color: white;
+    border-radius: 20px;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#billamt
+{
+    
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    border:2px rgb(55, 20, 55);
+}
+#tippercent
+{
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+}
